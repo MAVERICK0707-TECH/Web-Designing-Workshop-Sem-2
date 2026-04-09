@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+     justify-content: center;
+     padding-top: 15vh;
+    background: white;
+      color: black;
+}
+
+.wrapper {
+     text-align: center;
+    max-width: 300px;
+}
+
+input, button {
+       padding: 10px;
+    border-radius: 6px;
+     border: 1px solid white;
+    width: 100%;
+    margin-bottom: 10px;
+     box-sizing: border-box;
+}
+
+button {
+    background: blue;
+     color: white;
+    border: none;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background : blue;
+}
+
+#output {
+    margin-top: 15px;
+     font-size: 1.1rem;
+}
